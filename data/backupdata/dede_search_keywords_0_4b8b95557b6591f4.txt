@@ -1,0 +1,2 @@
+INSERT INTO `dede_search_keywords` VALUES('1','网络','网络','1','1','1444360255','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','请输入关键词','请输入关键词 关键词 输入','1','0','1444449447','0','0');

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>{dede:global.cfg_webname/}</title>
+  <meta name="description" content="{dede:global.cfg_description/}" />
+  <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+  <link href="/skin/css/css.css" rel="stylesheet" type="text/css" />
+  <link href="/skin/css/animate.css" rel="stylesheet" type="text/css" />
+  <link href="/skin/css/common.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="/skin/js/jquery.pack.js"></script>
+  <script type="text/javascript" src="/skin/js/jquery.blockui.js"></script>
+  <script type="text/javascript" src="/skin/js/jquery.superslide.js"></script>
+  <script type="text/javascript" src="/skin/js/qiehuan.js"></script>
+  <!--[if IE 6]>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/style/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('img,.logo,a:hover,li.tab a,.curr a,div,p,#cont1 a');
+</script>
+<![endif]-->
+</head>
+
+<body>
+  {dede:include filename="head.htm"/}
+  <div class="con">
+    <div class="floor1">
+      <div class="f1l" style="margin-right:18px;">
+        <div class="title">
+          <h2>计算机专业核心课程教学网站</h2>
+          <span>{dede:type typeid='1'} <a href="[field:typelink/]" target="_blank">more</a>{/dede:type} </span></div>
+        <div class="gsjj">
+          <ul>
+            <li>1. 对计算机科学与技术学院内，开设的计算机相关专业课程进行传播和推广；</li>
+            <li>2. 更新维护计算机科学与技术学院的相关教学计划与内容；</li>
+            <li>3. 提供高质量的学习相关资料，减少学习和筛选成本；</li>
+            <li>4. 积极向外传播和宣传我院专业课程的相关师资力量和专业建设成绩，汲取外界反馈做出改进</li>
+          </ul>
+          {dede:type typeid='1'} <a href="[field:typelink/]" class="more" target="_blank">【查看更多】</a>{/dede:type} </div>
+      </div>
+      <div class="f1l" style="width:364px;">
+        <div class="title">
+          <h2>核心课程</h2>
+          <span>{dede:type typeid='3'} <a href="[field:typelink/]" target="_blank">more</a>{/dede:type} </span></div>
+        <ul class="zhishi">
+          {dede:arclist row='7' titlelen='60' typeid='3'}
+          <li>·<a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a><span>[field:pubdate function="GetDateMK(@me)"/]</span></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+      <div class="f1l" style="width:670px; margin-right:18px;">
+        <div class="slideTxtBox">
+          <div class="hd">
+            <ul>
+              <li class="on">{dede:type typeid='15'} <a href="[field:typelink/]" target="_blank" title="[field:typename/]">[field:typename/]</a>{/dede:type} </li>
+              <li>{dede:type typeid='16'} <a href="[field:typelink/]" target="_blank" title="[field:typename/]">[field:typename/]</a>{/dede:type}</li>
+            </ul>
+            <div class="gd">{dede:type typeid='2'} <a href="[field:typelink/]" target="_blank">more</a>{/dede:type} </div>
+          </div>
+          <div class="bd">
+            <ul style="display: block;">
+              {dede:arclist row='1' flag='h' titlelen='60' typeid='15'}
+              <li class="first">
+                <a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]"><img src="[field:picname/]" width="237" height="179" /></a>
+              </li>
+              {/dede:arclist} {dede:arclist row='7' noflag='h' titlelen='60' typeid='15'}
+              <li>·<a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a><span>[field:pubdate function="GetDateMK(@me)"/]</span></li>
+              {/dede:arclist}
+            </ul>
+            <ul>
+              {dede:arclist row='1' flag='h' titlelen='60' typeid='16'}
+              <li class="first">
+                <a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]"><img src="[field:picname/]" width="237" height="179" /></a>
+              </li>
+              {/dede:arclist} {dede:arclist row='7' noflag='h' titlelen='60' typeid='16'}
+              <li>·<a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a><span>[field:pubdate function="GetDateMK(@me)"/]</span></li>
+              {/dede:arclist}
+            </ul>
+          </div>
+          <script type="text/javascript">
+            $(".slideTxtBox").slide();
+          </script>
+        </div>
+      </div>
+      <div class="f1l" style="width:307px;">
+        <div class="title">
+          <h2>联系我们</h2>
+          <span>{dede:type typeid='8'} <a href="[field:typelink/]" target="_blank">more</a>{/dede:type} </span></div>
+        <div class="lxwm"> <strong>{dede:global.cfg_webname/}</strong>
+          <br> 联系人：{dede:global.cfg_mc/}
+          <br> 手 机：{dede:global.cfg_sj/}
+          <br> 电 话：{dede:global.cfg_dh/}
+          <br> 地　址：{dede:global.cfg_dz/}
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="floor2">
+      <div class="title">
+        <h2>书籍推荐</h2>
+        <span>{dede:type typeid='3'} <a href="[field:typelink/]" target="_blank">more</a>{/dede:type} </span></div>
+      <div class="leftLoop" id="leftMarquee">
+        <div class="bd">
+          <ul>
+            {dede:arclist row='55' titlelen='60' typeid='4'}
+            <li>
+              <a class="pic animated"><img src="[field:picname/]" alt="[field:fulltitle/]" /></a>
+              <p><a href="[field:arcurl/]" target="_blank" title="[field:fulltitle/]">[field:title/]</a></p>
+            </li>
+            {/dede:arclist}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="flink">
+      <div class="link">友情链接：{dede:flink titlelen='20' row='20' type='text'} [field:link /] {/dede:flink}</div>
+    </div>
+  </div>
+  {dede:include filename="footer.htm"/}
+  <script type="text/javascript">
+    $(".menu li:first a").addClass("hover");
+  </script>
+</body>
+
+</html>

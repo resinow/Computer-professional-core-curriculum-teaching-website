@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>核心课程</title>
+<link>http://cat.itwap.net:88//hexinkecheng/</link>
+<description>核心课程</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 计算机专业核心课程教学网站 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[计算机网络]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/65.html</link>
+    <description><![CDATA[本书是国内外使用最广泛、最权威的计算机网络经典教材。全书按照网络协议模型自下而上（物理层、数据链路层、介质访问控制层、网络层、传输层和应用层）有系统地介绍了计算机]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[数据结构(C语言版)]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/64.html</link>
+    <description><![CDATA[数据结构C语言版是为数据结构课程编写的教材，也可作为学习数据结构及其算法的C程序设计的参数教材。学了数据结构后,许多以前写起来很繁杂的代码现在写起来很清晰明了，本书的]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[Java Web开发实战经典]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/63.html</link>
+    <description><![CDATA[本书用通俗易懂的语言和丰富多彩的实例，通过对ajax、javascript、html等web系统开发技术基础知识的讲解，并结合mvc设计模式的理念，详细讲述了使用jsp及struts框架进行web系统开发的相关]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[现代操作系统]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/62.html</link>
+    <description><![CDATA[Tanenbaum教授作为三个操作系统的设计师或联合设计师，具有长期设计开发操作系统的经验，从而把其对理论的深入理解和具体实践融入书中，使《现代操作系统(英文版第3版)》成为操作]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[计算机组成原理]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/61.html</link>
+    <description><![CDATA[概念清楚，通俗易懂，书中举例力求与当代计算机技术相结合，可作为高等学校计算机专业教材，也可作为其他科技人员的参考书。]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[Problem Solving with 9th Edition c2015]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/60.html</link>
+    <description><![CDATA[本书为英文原版。适合初学者学习c++的一本很好的教材。他比c++ prime plus更加基础，易懂和全面。一般学习路径是先看这本Problem Solving with C++基础书然后再看c++ prime plus，不然会比较费力]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[计算机基础]]></title>
+    <link>http://cat.itwap.net:88//hexinkecheng/58.html</link>
+    <description><![CDATA[介绍了计算机的各种硬件和软件知识，并以简单易学的方法，把计算机理论知识与实际应用巧妙结合起来，为读者认识计算机，进一步学习计算机软硬件知识打下坚实基础。 本书多达]]></description>
+    <pubDate>2016-04-13</pubDate>
+    <category>核心课程</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>
